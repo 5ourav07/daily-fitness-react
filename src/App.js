@@ -5,7 +5,7 @@ import Details from './components/Details/Details';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app'>
       <Cards></Cards>
       <Details></Details>
     </div>
