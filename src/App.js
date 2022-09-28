@@ -1,9 +1,13 @@
 import React from 'react';
+import './App.css';
+import Cards from './components/Cards/Cards';
+import Details from './components/Details/Details';
 
 function App() {
   return (
-    <div>
-      <h1>Daily Fitness</h1>
+    <div className='App'>
+      <Cards></Cards>
+      <Details></Details>
     </div>
   );
 }
