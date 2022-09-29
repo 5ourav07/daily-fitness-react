@@ -3,6 +3,7 @@ import './Details.css'
 import Card from '../Card/Card';
 import Cart from '../Cart/Cart';
 import { addToDb, getStoredCart } from '../Utilities/Utilities';
+import Questions from '../Questions/Questions';
 
 const Details = () => {
     const [cards, setCards] = useState([]);
@@ -43,6 +44,8 @@ const Details = () => {
                     ></Card>
                     )
                 }
+
+                <Questions></Questions>
             </div>
 
             <div className='cart'>
