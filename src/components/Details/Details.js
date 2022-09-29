@@ -33,7 +33,7 @@ const Details = () => {
             </div>
 
             <div className='cart'>
-                <Cart></Cart>
+                <Cart data={cart}></Cart>
             </div>
         </div>
     );

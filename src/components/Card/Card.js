@@ -10,8 +10,8 @@ const Card = ({ card, handleAddToCart }) => {
             <div className='card-info'>
                 <h2 className='card-name'>{name}</h2>
                 <p>{description}</p>
-                <h3>{age}</h3>
-                <h3>{duration}</h3>
+                <h3>For Age: {age}</h3>
+                <h3>Time Required: {duration}</h3>
             </div>
             <button onClick={() => handleAddToCart(card)} className='btn-cart'>
                 <p className='btn-text'>Add to Cart</p>

@@ -2,9 +2,11 @@ import React from 'react';
 import Avatar from '../../Avatar.png';
 import './Cart.css';
 
-const Cart = () => {
+const Cart = ({ data }) => {
     return (
-        <div>
+        <div className='cart'>
+            <h3>Total Items: {data.length}</h3>
+
             <div className='author'>
                 <img className='author-img' src={Avatar} alt=""></img>
                 <div className='author-details'>
