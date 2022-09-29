@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Details.css'
 import Card from '../Card/Card';
 import Cart from '../Cart/Cart';
+import { addToDb, getStoredCart } from '../Utilities/Utilities';
 
 const Details = () => {
     const [cards, setCards] = useState([]);
@@ -13,10 +14,24 @@ const Details = () => {
             .then(data => setCards(data))
     }, []);
 
+    useEffect(() => {
+        const storedCart = getStoredCart();
+        const savedCart = [];
+        for (const id in storedCart) {
+            const addedCard = cards.find(card => card.id === id)
+            if (addedCard) {
+                const quantity = storedCart[id];
+                addedCard.quantity = quantity;
+                savedCart.push(addedCard);
+            }
+        }
+        setCart(savedCart);
+    }, [cards]);
+
     const handleAddToCart = (card) => {
-        console.log(card);
         const newCart = [...cart, card];
         setCart(newCart);
+        addToDb(card.id);
     }
 
     return (

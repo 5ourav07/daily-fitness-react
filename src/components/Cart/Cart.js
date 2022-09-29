@@ -3,10 +3,14 @@ import Avatar from '../../Avatar.png';
 import './Cart.css';
 
 const Cart = ({ data }) => {
+    let time = 0;
+
+    for (const d of data) {
+        time = time + d.duration;
+    }
+
     return (
         <div className='cart'>
-            <h3>Total Items: {data.length}</h3>
-
             <div className='author'>
                 <img className='author-img' src={Avatar} alt=""></img>
                 <div className='author-details'>
@@ -43,7 +47,7 @@ const Cart = ({ data }) => {
 
             <div>
                 <h3 className='break-title'>Exercise Details</h3>
-                <p className='exercise'>Exercise Time: </p>
+                <p className='exercise'>Exercise Time: {time} seconds</p>
                 <p className='exercise'>Break Time: </p>
             </div>
 

@@ -5,7 +5,8 @@
     "description": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs.",
     "age": "20-25",
     "duration": 20,
-    "img": "https://img.freepik.com/free-photo/strong-man-training-gym_1303-23478.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940"
+    "img": "https://img.freepik.com/free-photo/strong-man-training-gym_1303-23478.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940",
+    "quantity": 0
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6atg",
@@ -13,7 +14,8 @@
     "description": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.",
     "age": "20-35",
     "duration": 30,
-    "img": "https://img.freepik.com/free-photo/young-man-sportswear-exercise-class-gym_1150-12372.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940"
+    "img": "https://img.freepik.com/free-photo/young-man-sportswear-exercise-class-gym_1150-12372.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940",
+    "quantity": 0
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6hdt",
@@ -21,7 +23,8 @@
     "description": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body.",
     "age": "20-30",
     "duration": 25,
-    "img": "https://img.freepik.com/free-photo/gym-with-indoor-cycling-equipment_23-2149270210.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940"
+    "img": "https://img.freepik.com/free-photo/gym-with-indoor-cycling-equipment_23-2149270210.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940",
+    "quantity": 0
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6car",
@@ -29,7 +32,8 @@
     "description": "Not only will these make your back look killer in that dress, but dumbbell rows are also another compound exercise that strengthens multiple muscles in your upper body.",
     "age": "20-30",
     "duration": 15,
-    "img": "https://img.freepik.com/free-photo/strong-legs-exercising-couple_329181-14159.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940"
+    "img": "https://img.freepik.com/free-photo/strong-legs-exercising-couple_329181-14159.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940",
+    "quantity": 0
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6pal",
@@ -37,7 +41,8 @@
     "description": "This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.",
     "age": "20-25",
     "duration": 10,
-    "img": "https://img.freepik.com/free-photo/muscular-man-doing-push-ups-one-hand_7502-4775.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940"
+    "img": "https://img.freepik.com/free-photo/muscular-man-doing-push-ups-one-hand_7502-4775.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940",
+    "quantity": 0
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6wqk",
@@ -45,6 +50,7 @@
     "description": "An exercise we love to hate, burpees are a super-effective, whole-body move that provides great bang for your buck for cardiovascular endurance and muscle strength.",
     "age": "20-35",
     "duration": 25,
-    "img": "https://img.freepik.com/free-photo/male-feet-sneakers-running-treadmill-gym-exercise-concept_335224-799.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940"
+    "img": "https://img.freepik.com/free-photo/male-feet-sneakers-running-treadmill-gym-exercise-concept_335224-799.jpg?size=626&ext=jpg&ga=GA1.2.1311127451.1662129940",
+    "quantity": 0
   }
 ]
