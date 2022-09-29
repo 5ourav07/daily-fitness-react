@@ -1,0 +1,88 @@
+.author {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.author-img {
+    width: 40px;
+    height: 40px;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.author-name {
+    color: #2B2C34;
+    font-weight: 500;
+    margin: 0;
+}
+
+.author-place {
+    font-size: 14px;
+    color: #718797;
+    margin: 0;
+}
+
+.author-info {
+    background-color: white;
+    width: 265px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.break-title {
+    margin-left: 20px;
+}
+
+.break-time {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.time {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.time:hover {
+    background-color: gold;
+}
+
+.exercise {
+    margin-left: 20px;
+    background-color: white;
+    width: 255px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.btn-exercise {
+    width: 262px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.btn-exercise:hover {
+    background-color: goldenrod;
+}
