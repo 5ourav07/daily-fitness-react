@@ -20,8 +20,8 @@ const Cart = ({ data }) => {
             <div className='author'>
                 <img className='author-img' src={Avatar} alt=""></img>
                 <div className='author-details'>
-                    <p className='author-name'>A Name</p>
-                    <p className='author-place'>A, Country</p>
+                    <p className='author-name'>Sourav Saha</p>
+                    <p className='author-place'>Dhaka Bangladesh</p>
                 </div>
             </div>
 
