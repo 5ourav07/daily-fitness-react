@@ -18,10 +18,18 @@
     .cards {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .cart {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (min-width:688px) and (max-width: 992px) {
     .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cart {
         grid-template-columns: repeat(2, 1fr);
     }
 }
