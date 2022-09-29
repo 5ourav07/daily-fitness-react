@@ -1,12 +1,11 @@
 import React from 'react';
-import './App.css';
-import Cards from './components/Cards/Cards';
+import Header from './components/Header/Header';
 import Details from './components/Details/Details';
 
 function App() {
   return (
-    <div className='app'>
-      <Cards></Cards>
+    <div>
+      <Header></Header>
       <Details></Details>
     </div>
   );
