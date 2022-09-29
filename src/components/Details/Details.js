@@ -20,8 +20,6 @@ const Details = () => {
         for (const id in storedCart) {
             const addedCard = cards.find(card => card.id === id)
             if (addedCard) {
-                const quantity = storedCart[id];
-                addedCard.quantity = quantity;
                 savedCart.push(addedCard);
             }
         }
